@@ -1,0 +1,80 @@
+{
+  "collections": [
+    {
+      "name": "projects",
+      "label": "Projects",
+      "path": "content/projects",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "year",
+          "label": "Year",
+          "type": "number",
+          "required": true
+        },
+        {
+          "name": "github_url",
+          "label": "GitHub Repo",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "demo_url",
+          "label": "Demo Link",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "description",
+          "label": "Short Description",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "type": "multiselect",
+          "options": ["Web Design", "Web Audio"],
+          "required": false
+        },
+        {
+          "name": "tools",
+          "label": "Tools",
+          "type": "list",
+          "required": false
+        },
+        {
+          "name": "credits",
+          "label": "Credits",
+          "type": "list-of-objects",
+          "required": false,
+          "fields": [
+            {
+              "name": "description",
+              "label": "Description",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "value",
+              "label": "Value",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "url",
+              "label": "URL",
+              "type": "text",
+              "required": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
