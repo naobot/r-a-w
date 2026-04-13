@@ -1,5 +1,5 @@
 ---
 title: Test Proj
-thumbnail: /assets/uploads/widget.png
+thumbnail: /assets/uploads/grabcrab.jpg
 ---
 
