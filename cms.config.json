@@ -1,4 +1,5 @@
 {
+  "assets_path": "public/assets/uploads",
   "collections": [
     {
       "name": "projects",
@@ -16,6 +17,12 @@
           "label": "Year",
           "type": "number",
           "required": true
+        },
+        {
+          "name": "thumbnail",
+          "label": "Thumbnail",
+          "type": "image",
+          "required": false
         },
         {
           "name": "github_url",
