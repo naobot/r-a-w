@@ -4,7 +4,7 @@
     {
       "name": "projects",
       "label": "Projects",
-      "path": "content/projects",
+      "path": "content/_projects",
       "orderable": true,
       "fields": [
         {
@@ -83,6 +83,22 @@
           ]
         }
       ]
+    }
+  ],
+  "singletons": [
+    {
+      "name": "index",
+      "label": "Home",
+      "path": "_pages/index.md",
+      "layout": "index.html",
+      "fields": []
+    },
+    {
+      "name": "about",
+      "label": "About",
+      "path": "_pages/about.md",
+      "layout": "about.html",
+      "fields": []
     }
   ]
 }
