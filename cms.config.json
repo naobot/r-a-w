@@ -5,6 +5,7 @@
       "name": "projects",
       "label": "Projects",
       "path": "content/projects",
+      "orderable": true,
       "fields": [
         {
           "name": "title",
