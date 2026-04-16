@@ -1,5 +1,6 @@
 {
   "assets_path": "public/assets/uploads",
+  "data_path": "content/_data",
   "collections": [
     {
       "name": "projects",
@@ -48,7 +49,7 @@
           "name": "tags",
           "label": "Tags",
           "type": "multiselect",
-          "options": ["Web Design", "Web Audio"],
+          "data_file": "content/_data/tags.json",
           "required": false
         },
         {
