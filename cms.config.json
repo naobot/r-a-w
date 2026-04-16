@@ -1,6 +1,9 @@
 {
   "assets_path": "public/assets/uploads",
   "data_path": "content/_data",
+  "data_files": [
+    { "path": "content/_data/tags.json", "label": "Tags" }
+  ],
   "collections": [
     {
       "name": "projects",
